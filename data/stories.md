@@ -1,22 +1,18 @@
-## hospital search happy path
+## print hello world example 
 * greet
-  - utter_how_can_i_help
-* search_provider{"facility_type":"hospital", "location": "San Francisco"}
-  - action_facility_search
-  - slot{"address":"300 Hyde St, San Francisco"}
-* thanks
+  - utter_greet
+* hello_world
+  - action_hello_world
+* goodbye
   - utter_goodbye
 
-## hospital search + location
-* greet
-  - utter_how_can_i_help
-* search_provider{"facility_type":"hospital"}
-  - utter_ask_location
-* inform{"location":"San Francisco"}
-  - action_facility_search
-  - slot{"address":"300 Hyde St, San Francisco"}
-* thanks
-  - utter_goodbye
+
+
+
+
+
+
+
 
 ## happy path
 * greet
@@ -45,3 +41,7 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot

@@ -1,3 +1,15 @@
+## intent:hello_world
+- test the bot
+- this is a test
+- I want to check the actions server
+- actions.py
+
+
+
+
+
+
+
 ## intent:greet
 - hey
 - hello
@@ -11,24 +23,6 @@
 - goodbye
 - see you around
 - see you later
-
-## intent:inform
-- [Sitka](location)
-- [Juneau](location)
-- [Virginia](location)
-- [Cusseta](location)
-- [Chicago](location)
-- [Tuscon](location)
-- [Columbus](location)
-- [San Francisco](location)
-
-## intent:search_provider
-- I need a [hospital](facility_type)
-- find me a nearby [hospital](facility_type)
-- show me [home health agencies](facility_type)
-- [hospital](facility_type)
-- find me a nearby [hospital](facility_type) in [San Francisco](location)
-- I need a [home health agency](facility_type)
 
 ## intent:affirm
 - yes
@@ -66,3 +60,9 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
