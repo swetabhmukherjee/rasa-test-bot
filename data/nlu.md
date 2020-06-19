@@ -1,14 +1,16 @@
-## intent:hello_world
-- test the bot
-- this is a test
-- I want to check the actions server
-- actions.py
+## intent:restaurant_search
+- I need a restaurant
+- I am looking for a restaurant
+- Can you show me some restaurants
+- restaurant
+- Restaurant
 
-
-
-
-
-
+## intent:look_for_restaurant
+- [Indian](type)
+- [Chinese](type)
+- [Thai](type)
+- [Italian](type)
+- show me an [Indian](type) restaurant
 
 ## intent:greet
 - hey

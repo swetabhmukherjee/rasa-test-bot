@@ -1,20 +1,28 @@
-## print hello world example 
+## search restaurant 
 * greet
   - utter_greet
-* hello_world
-  - action_hello_world
-* goodbye
-  - utter_goodbye
+* restaurant_search
+  - utter_ask_for_restaurant
+* look_for_restaurant
+  - action_search_restaurant
+
+## search restaurant with location
+* greet
+  - utter_greet
+* look_for_restaurant{"type":"Indian"}
+  - action_search_restaurant
+
+<!-- 
+## search for restaurant direct
+* greet
+  - utter_greet
+* restaurant_search
+  - utter_ask_for_restaurant
+* look_for_restaurant
+  -  -->
 
 
-
-
-
-
-
-
-
-## happy path
+<!-- ## happy path
 * greet
   - utter_greet
 * mood_great
@@ -45,3 +53,4 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+ -->
